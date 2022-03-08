@@ -44,15 +44,13 @@ const App: NextPage = () => {
         </QueryClientProvider>
       </ChakraProvider>
       
-      <div className="footer-container ">
-      <center>
+      <div className="footer-container" style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
 					<a
 						className="footer-text"
 						href={TWITTER_LINK}
 						target="_blank"
 						rel="noreferrer"
-					>{`built by @${TWITTER_HANDLE}`}</a>
-      </center>
+					>{`Built by @${TWITTER_HANDLE}`}</a>
 				</div>
       
     </WagmiProvider>
